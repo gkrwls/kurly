@@ -597,6 +597,9 @@
     margin-left: 0;
   }
 }
+#wrap > section > .suggest > .button p:hover {
+  color: #5f0080;
+}
 #wrap > section > .suggest > .button > p {
   position: absolute;
   font-size: 25px;

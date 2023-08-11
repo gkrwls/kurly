@@ -17,3 +17,17 @@ $btnImg.eq(1).on('mouseover', function () {
 $btnImg.eq(1).on('mouseout', function () {
 	$btnImg.eq(1).attr('src', './images/btn-2.png');
 });
+
+const $p = $('.button>p');
+$p.eq(0).on('mouseover', function () {
+	$btnImg.eq(0).attr('src', './images/btn-1.png');
+});
+$p.eq(0).on('mouseout', function () {
+	$btnImg.eq(0).attr('src', './images/btn-2.png');
+});
+$p.eq(1).on('mouseover', function () {
+	$btnImg.eq(1).attr('src', './images/btn-1.png');
+});
+$p.eq(1).on('mouseout', function () {
+	$btnImg.eq(1).attr('src', './images/btn-2.png');
+});

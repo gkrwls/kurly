@@ -627,7 +627,9 @@ $mobile: 'screen and (max-width:700px)';
 					}
 				} //end of img
 
-				// ---------------------------* 버튼 글자 움직임 없애기 *-----------------------------
+				p:hover {
+					color: $kurly-color;
+				}
 
 				> p {
 					position: absolute;
